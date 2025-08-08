@@ -1,0 +1,32 @@
+package com.jtcindia.jdbc;
+
+import java.sql.Connection;
+import java.sql.Statement;
+
+import com.jtcindia.jdbcutil.JDBCUtil;
+
+public class Jtc4 {
+	public static void main(String[] args) {
+
+		Connection con = null;
+		Statement st = null;
+
+		try {
+			con = JDBCUtil.getConnection();
+			String qry = "";
+
+		}
+
+		catch (Exception e) {
+			e.printStackTrace();
+		}
+
+		finally {
+			System.out.println("-- Cleaning all the resources --");
+			JDBCUtil.cleanup(st, con);
+
+		}
+
+	}
+
+}

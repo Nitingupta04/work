@@ -1,0 +1,52 @@
+package com.jtcindia.jdbceg;
+
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.Statement;
+
+import com.jtcindia.jdbcutilall.JDBCUtill;
+
+public class Jtc1 {
+
+	public static void main(String[] args) {
+		System.out.println("-- Java Program Started Runing --");
+
+		Connection con = null;
+		Statement st = null;
+		ResultSet rs = null;
+
+		try {
+
+			// Our Query
+			String q1 = "insert into users values (109,'Krishna','Krishna@gmail.com',988789,'Bhopal')";
+			String q2 = "delete from users where id=109";
+
+			// Getting Connection
+			con = JDBCUtill.getConnection();
+
+			// Creating statement
+			st = con.createStatement();
+
+			boolean bn = st.execute(q2);
+			System.out.println(bn);
+
+//			int i = st.executeUpdate(q1);
+//			if (i == 1) {
+//				System.out.println("-- Users Record Added Sucessfully --");
+//			} else {
+//				System.out.println("-- Sorry Users Record Not Inserted --");
+//			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+		finally {
+			JDBCUtill.cleanup(st, con, rs);
+			System.out.println("-- All Resources Cleaned --");
+
+		}
+
+	}
+
+}

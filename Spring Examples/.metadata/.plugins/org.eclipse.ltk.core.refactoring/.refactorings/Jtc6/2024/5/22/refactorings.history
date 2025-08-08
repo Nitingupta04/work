@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.jtcindia.spring.Jtc5&apos; to &apos;Jtc6&apos;&#x0D;&#x0A;- Original project: &apos;Jtc6&apos;&#x0D;&#x0A;- Original element: &apos;com.jtcindia.spring.Jtc5&apos;&#x0D;&#x0A;- Renamed element: &apos;com.jtcindia.spring.Jtc6&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Jtc5&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.jtcindia.spring{Jtc5.java[Jtc5" matchStrategy="1" name="Jtc6" qualified="false" references="true" similarDeclarations="false" stamp="1716801475643" textual="false" version="1.0"/>
+</session>

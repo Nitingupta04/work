@@ -1,0 +1,52 @@
+package com.jtc.exceptionhandling1;
+
+class Thread1 extends Thread {
+	
+	public void run ()
+	{
+		System.out.println("User defined thread is performning their task ...");
+		System.out.println("Current thread name in Thread1 is = "+this.getName());
+		System.out.println("Current thread Priority in Thread1 is = "+this.getPriority());
+		System.out.println("Current thread Thread-Group in Thread1 is = "+this.getThreadGroup());		
+	}
+	
+	void m1 ()
+	{
+		System.out.println("This is m1 inside the Thread1");
+	}
+	
+	void m2 ()
+	{
+		System.out.println("This is m2 inside the Thread1");
+	}
+
+}
+
+public class Test {
+
+	public static void main(String[] args) {
+				
+		Thread t1 = new Thread();
+		t1.setName("Nitin");
+		System.out.println("Thread t1 = "+t1);
+		System.out.println("Current Thread :- "+Thread.currentThread().getName());
+		System.out.println("Current Thread Group :- "+Thread.currentThread().getThreadGroup().getName());
+		System.out.println("Default Priority " +t1.getPriority());
+		t1.setPriority(2);
+		System.out.println("Changed Priority " +t1.getPriority());		
+		
+		
+		System.out.println("\n============\n");
+		Thread1 t2 = new Thread1();
+		t2.setName("My-First-User-Define-Thread");
+		t2.setPriority(7);
+		System.out.println(t2);
+		t2.m1();
+		t2.m2();
+		t2.start();
+	
+}
+
+}
+
+

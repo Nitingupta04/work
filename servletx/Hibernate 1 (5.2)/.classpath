@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-15">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="D:/JTC Java/Hibernate Jar Files/Hibernate 5.2 jars/classmate-1.1.0.jar"/>
+	<classpathentry kind="lib" path="D:/JTC Java/Hibernate Jar Files/Hibernate 5.2 jars/hibernate-jpa-2.1-api-1.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="D:/JTC Java/Hibernate Jar Files/Hibernate 5.2 jars/hibernate-validator-5.2.4.Final.jar"/>
+	<classpathentry kind="lib" path="D:/JTC Java/Hibernate Jar Files/Hibernate 5.2 jars/hibernate-validator-annotation-processor-5.2.4.Final.jar"/>
+	<classpathentry kind="lib" path="D:/JTC Java/Hibernate Jar Files/Hibernate 5.2 jars/hibernate-validator-cdi-5.2.4.Final.jar"/>
+	<classpathentry kind="lib" path="D:/JTC Java/Hibernate Jar Files/Hibernate 5.2 jars/javax.el-2.2.4.jar"/>
+	<classpathentry kind="lib" path="D:/JTC Java/Hibernate Jar Files/Hibernate 5.2 jars/javax.el-api-2.2.4.jar"/>
+	<classpathentry kind="lib" path="D:/JTC Java/Hibernate Jar Files/Hibernate 5.2 jars/jboss-logging-3.2.1.Final.jar"/>
+	<classpathentry kind="lib" path="D:/JTC Java/Hibernate Jar Files/Hibernate 5.2 jars/joda-time-2.7.jar"/>
+	<classpathentry kind="lib" path="D:/JTC Java/Hibernate Jar Files/Hibernate 5.2 jars/jsoup-1.8.3.jar"/>
+	<classpathentry kind="lib" path="D:/JTC Java/Hibernate Jar Files/Hibernate 5.2 jars/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="D:/JTC Java/Hibernate Jar Files/Hibernate 5.2 jars/paranamer-2.5.5.jar"/>
+	<classpathentry kind="lib" path="D:/JTC Java/Hibernate Jar Files/Hibernate 5.2 jars/validation-api-1.1.0.Final.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

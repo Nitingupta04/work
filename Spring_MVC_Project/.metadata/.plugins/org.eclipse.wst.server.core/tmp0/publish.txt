@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Tue Jul 02 13:16:41 IST 2024
+org.eclipse.jst.jee.server\:/binary\:D\:\\JTC\ Java\\Work\\Spring_MVC_Project\\Jtc1\\src\\main\\webapp\\WEB-INF\\lib\\spring-web-5.2.5.RELEASE.jar=WEB-INF/lib/spring-web-5.2.5.RELEASE.jar
+org.eclipse.jst.jee.server\:/binary\:D\:\\JTC\ Java\\Work\\Spring_MVC_Project\\Jtc1\\src\\main\\webapp\\WEB-INF\\lib\\spring-web-5.2.5.RELEASE-sources.jar=WEB-INF/lib/spring-web-5.2.5.RELEASE-sources.jar

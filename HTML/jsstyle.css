@@ -1,0 +1,16 @@
+button{
+    height: 100px;
+    width: 100px;
+    border-color: blueviolet;
+    color: black;
+    border: 1px,solid;
+}
+
+h1{
+    height : 100px;
+    width: 300px;
+    border-color: aquamarine;
+    color: black;
+    border: 1px solid;
+    align-items: center;
+}

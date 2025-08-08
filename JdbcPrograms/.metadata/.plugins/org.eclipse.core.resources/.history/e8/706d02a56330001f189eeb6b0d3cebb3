@@ -1,0 +1,32 @@
+package com.jtcindia.jdbceg;
+
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.Statement;
+
+import com.jtcindia.jdbcutilall.JDBCUtill;
+
+public class Jtc1 {
+
+	public static void main(String[] args) {
+		System.out.println("-- Java Program Started Runing --");
+
+		Connection con = null;
+		Statement st = null;
+		ResultSet rs = null;
+
+		try {
+
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+		finally {
+			JDBCUtill.cleanup(st, con, rs);
+			System.out.println("-- All Resources Cleaned --");
+
+		}
+
+	}
+
+}

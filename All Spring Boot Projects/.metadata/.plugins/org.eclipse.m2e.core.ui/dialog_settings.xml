@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\nitin\Desktop\Project\Ecommerce-JAVA-main\Ecommerce-JAVA-main"/>
+			<item value="C:\Users\nitin\Desktop\Project\Monolithic-Ecommerce-Java"/>
+			<item value="D:\JTC Java\Work\All Spring Boot Projects\spring-boot-jpa-example\spring-boot-jpa-example"/>
+			<item value="C:\Users\nitin\New folder\Test\Test"/>
+			<item value="C:\Users\nitin\New folder\springtest\springtest"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

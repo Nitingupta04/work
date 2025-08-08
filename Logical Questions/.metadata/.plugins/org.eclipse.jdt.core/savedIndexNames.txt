@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+D:\JTC Java\Work\Logical Questions\.metadata\.plugins\org.eclipse.jdt.core
+215085543.index
+3567924269.index
+1865797976.index

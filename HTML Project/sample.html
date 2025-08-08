@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Pseudo-elements Example</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      padding: 20px;
+      font-family: Arial, sans-serif;
+    }
+
+    h1, p {
+      padding: 10px;
+    }
+
+    /* ::before example */
+    h1::before {
+      content: url(Screenshot\ 2024-10-10\ 140953.png); /* Adds an image before the heading */
+      width: 5px;  /* Adjusted width for smaller image size */
+      height: 5px;  /* Maintain aspect ratio */
+      display: inline-flexbox; /* Ensure it behaves like an inline element */
+      margin-right: 10px; /* Space between image and text */
+    }
+
+    /* ::after example */
+    h1::after {
+      content: "-- Here are we at our first example --"; /* Adds text after the heading */
+      color: grey;
+    }
+
+    /* ::first-line example */
+    p::first-line {
+      font-weight: bold;
+      color: #ff0000;
+      font-size: 22px;
+    }
+
+    /* ::first-letter example */
+    p::first-letter {
+      font-weight: bold;
+      font-size: 24px;
+      color: red;
+    }
+
+    /* ::selection example */
+    p::selection {
+      background-color: #CCC;
+      color: rgb(201, 0, 0);
+    }
+
+    /* ::placeholder example */
+    input::placeholder {
+      color: #ff0000;
+    }
+
+    /* ::marker example */
+    li::marker {
+      content: "\2022"; /* Bullet point */
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to JTC</h1>
+  <p>First-letter and First-line Example. 
+    As you can see, 
+    the first letter and the first line are styled differently.</p>
+  
+  <ul>
+    <li>This is First Line</li>
+    <li>This is Second Line</li>
+    <li>This is Third Line</li>
+  </ul>
+  
+  <form action="">
+    <label>First name: <input type="text" placeholder="First Name"></label><br>
+    <label>Last name: <input type="text" placeholder="Last Name"></label><br>
+  </form>
+</body>
+</html>

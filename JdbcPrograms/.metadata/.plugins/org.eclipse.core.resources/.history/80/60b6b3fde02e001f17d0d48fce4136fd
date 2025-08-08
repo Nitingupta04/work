@@ -1,0 +1,61 @@
+package com.jtcindia.jdbc;
+
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.Statement;
+
+import com.jtcindia.jdbcutil.JDBCUtil;
+
+public class Test1 {
+
+	public static void main(String[] args) {
+		Connection con = null;
+		Statement st = null;
+		ResultSet rs = null;
+
+		try {
+
+			String q2 = "select * from  users";
+			con = JDBCUtil.getConnection();
+			st = con.createStatement();
+			boolean result = st.execute(q2);
+
+			if (result == true) {
+				System.out.println("-- Execution is sucessful --");
+			} else {
+				System.out.println("-- Execution is not sucessful --");
+			}
+
+			rs = st.getResultSet();
+
+			while (rs.next()) {
+				int id = rs.getInt(1);
+				String name = rs.getString(2);
+				String email = rs.getString(3);
+				;
+				long phonne = rs.getLong(4);
+				;
+				String city = rs.getString(5);
+
+				System.out.print("Id =" + id + "|");
+				System.out.print("Name =" + name + "|");
+				System.out.print("Email =" + email + "|");
+				System.out.print("Phone No =" + phonne + "|");
+				System.out.print("City =" + city + "|");
+				System.out.println();
+
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+		finally {
+			JDBCUtil.cleanup(st, con, rs);
+			System.out.println("-- All Resources cleaned Up --");
+
+		}
+
+	}
+
+}

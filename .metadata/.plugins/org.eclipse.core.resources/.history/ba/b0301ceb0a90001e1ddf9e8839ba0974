@@ -1,0 +1,16 @@
+package com.jtc.exceptionhandling1;
+
+
+
+public class Test {
+
+	public static void main(String[] args) {
+		Thread t1 = new Thread();
+		System.out.println("Default Priority " +t1.getPriority());
+		t1.setPriority(16);
+		System.out.println("Changed Priority " +t1.getPriority());
+		
+
+	}
+
+}
