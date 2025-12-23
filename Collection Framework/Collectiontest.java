@@ -1,9 +1,10 @@
 import java.util.*;
+
 class Clolectiontest{
 
     public static void main(String[] args) {
 
-        /*Vector vector = new Vector();
+        Vector vector = new Vector();
         vector.add("Nitin");
         vector.add("Gupta");
         vector.add(123);
@@ -13,15 +14,15 @@ class Clolectiontest{
         Enumeration enumeration = vector.elements();
         while (enumeration.hasMoreElements()) {
             Object object = enumeration.nextElement();
-            System.out.println(object);            
-        }*/
+            System.out.println(" -- Value of object = " +object);            
+        }
 
         Properties properties = new Properties();
-        for(int i =1; i <= 1000; i ++){
-        properties.put(i, "Nitin"+i);
+        for(int i =1; i <= 5; i ++){
+        properties.put(i, "Nitin"+i);  
         
     }
-    System.out.print("  |  "+properties);
+    
 
 
 

@@ -45,7 +45,7 @@ plt.show()
 
 # Plot Volume
 plt.figure(figsize=(12, 6))
-plt.bar(tcs.index, tcs['Volume'], color='g', alpha=0.5)
+plt.bar(tcs.index, tcs['Volume'], color='g', alpha=0.5, width=1)
 
 # Add titles and labels
 plt.title("TCS Stock Trading Volume (2023-2024)")
